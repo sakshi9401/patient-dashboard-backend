@@ -1,8 +1,6 @@
 ## Setup Instructions
 
-1. Unzip the file.
-2. Navigate into the project folder.
-3. Run: npm install
+1. Run: npm install
 
 ## Version
 
