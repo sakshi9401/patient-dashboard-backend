@@ -1,0 +1,191 @@
+{
+  "patients": [
+    {
+      "_id": "674f8a5d9e1234567890abcd",
+      "patientId": "PAT001",
+      "name": "John Smith",
+      "age": 45,
+      "gender": "Male",
+      "phone": "+1234567890",
+      "email": "john.smith@email.com",
+      "address": "123 Main St, New York, NY 10001",
+      "eye": "Left",
+      "assignedDoctor": "Dr. Sarah Johnson",
+      "hasSurgery": true,
+      "status": "assigned",
+      "admissionDate": "2024-01-15",
+      "roomNumber": "101A",
+      "insurance": "Blue Cross",
+      "emergencyContact": {
+        "name": "Jane Smith",
+        "relationship": "Wife",
+        "phone": "+1234567891"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abce",
+      "patientId": "PAT002",
+      "name": "Emily Davis",
+      "age": 32,
+      "gender": "Female",
+      "phone": "+1234567892",
+      "email": "emily.davis@email.com",
+      "address": "456 Oak Ave, Los Angeles, CA 90210",
+      "eye": "Left",
+      "medicalHistory": ["Allergies"],
+      "assignedDoctor": "Dr. Michael Brown",
+            "hasSurgery": false,
+
+      "status": "assigned",
+      "admissionDate": "2024-01-20",
+      "roomNumber": "205B",
+      "insurance": "Aetna",
+      "emergencyContact": {
+        "name": "Robert Davis",
+        "relationship": "Husband",
+        "phone": "+1234567893"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abcf",
+      "patientId": "PAT003",
+      "name": "Michael Wilson",
+      "age": 58,
+      "gender": "Male",
+      "phone": "+1234567894",
+      "email": "michael.wilson@email.com",
+      "address": "789 Pine St, Chicago, IL 60601",
+      "eye": "Right",
+      "medicalHistory": ["Heart Disease", "High Cholesterol"],
+      "assignedDoctor": null,
+      "status": "unassigned",
+      "admissionDate": "2024-01-25",
+      "hasSurgery": true,
+      "roomNumber": null,
+      "insurance": "Cigna",
+      "emergencyContact": {
+        "name": "Lisa Wilson",
+        "relationship": "Sister",
+        "phone": "+1234567895"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abd0",
+      "patientId": "PAT004",
+      "name": "Sarah Johnson",
+      "age": 29,
+      "gender": "Female",
+      "phone": "+1234567896",
+      "email": "sarah.johnson@email.com",
+      "address": "321 Elm St, Miami, FL 33101",
+      "eye": "Right",
+      "medicalHistory": ["Asthma"],
+      "assignedDoctor": "Dr. James Miller",
+            "hasSurgery": false,
+
+      "status": "assigned",
+      "admissionDate": "2024-02-01",
+      "roomNumber": "302C",
+      "insurance": "United Healthcare",
+      "emergencyContact": {
+        "name": "Mark Johnson",
+        "relationship": "Brother",
+        "phone": "+1234567897"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abd1",
+      "patientId": "PAT005",
+      "name": "David Brown",
+      "age": 41,
+      "gender": "Male",
+      "phone": "+1234567898",
+      "email": "david.brown@email.com",
+      "address": "654 Maple Dr, Houston, TX 77001",
+      "eye": "Left",
+      "medicalHistory": ["Back Pain", "Arthritis"],
+      "assignedDoctor": null,
+      "status": "unassigned",
+      "admissionDate": "2024-02-05",
+      "hasSurgery": true,
+      "roomNumber": null,
+      "insurance": "Kaiser Permanente",
+      "emergencyContact": {
+        "name": "Maria Brown",
+        "relationship": "Wife",
+        "phone": "+1234567899"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abd2",
+      "patientId": "PAT006",
+      "name": "Lisa Garcia",
+      "age": 35,
+      "gender": "Female",
+      "phone": "+1234567800",
+      "email": "lisa.garcia@email.com",
+      "address": "987 Cedar Ln, Phoenix, AZ 85001",
+      "eye": "Right",
+      "medicalHistory": ["Migraine", "Anxiety"],
+      "assignedDoctor": "Dr. Jennifer Lee",
+      "status": "assigned",
+      "admissionDate": "2024-02-10",
+            "hasSurgery": false,
+
+      "roomNumber": "401D",
+      "insurance": "Humana",
+      "emergencyContact": {
+        "name": "Carlos Garcia",
+        "relationship": "Husband",
+        "phone": "+1234567801"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abd3",
+      "patientId": "PAT007",
+      "name": "Robert Taylor",
+      "age": 52,
+      "gender": "Male",
+      "phone": "+1234567802",
+      "email": "robert.taylor@email.com",
+      "address": "147 Birch St, Seattle, WA 98101",
+      "eye": "Left",
+      "medicalHistory": ["Kidney Stones"],
+      "assignedDoctor": null,
+      "status": "unassigned",
+      "admissionDate": "2024-02-12",
+      "roomNumber": null,
+      "hasSurgery": true,
+      "insurance": "Blue Cross",
+      "emergencyContact": {
+        "name": "Nancy Taylor",
+        "relationship": "Wife",
+        "phone": "+1234567803"
+      }
+    },
+    {
+      "_id": "674f8a5d9e1234567890abd4",
+      "patientId": "PAT008",
+      "name": "Jennifer Martinez",
+      "age": 38,
+      "gender": "Female",
+      "phone": "+1234567804",
+      "email": "jennifer.martinez@email.com",
+      "address": "258 Spruce Ave, Denver, CO 80201",
+      "eye": "Left",
+      "medicalHistory": ["Thyroid Issues"],
+      "assignedDoctor": "Dr. Kevin White",
+            "hasSurgery": false,
+
+      "status": "assigned",
+      "admissionDate": "2024-02-15",
+      "roomNumber": "503E",
+      "insurance": "Aetna",
+      "emergencyContact": {
+        "name": "Miguel Martinez",
+        "relationship": "Husband",
+        "phone": "+1234567805"
+      }
+    }
+  ]
+}
